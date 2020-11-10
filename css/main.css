@@ -1,3 +1,27 @@
 .title {
     background-color: aqua;
 }
+
+.gallery {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+
+}
+
+.gallery_item {
+    list-style: none;
+    transition: transform 250ms ease;
+}
+
+.gallery_item:not(:last-child){
+    margin-right: 20px;
+}
+
+.gallery_image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
