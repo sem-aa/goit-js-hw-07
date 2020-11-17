@@ -13,8 +13,7 @@ function offFocusInput(event){
         validInput.classList.replace('invalid', 'valid')
     } else {validInput.classList.replace('valid', 'invalid')}
     }
-
-      
+    
     
     
     
